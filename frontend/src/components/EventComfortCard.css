@@ -1,0 +1,187 @@
+.event-comfort {
+  margin-top: 18px;
+  padding: 20px;
+
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow:
+    0 6px 20px
+    rgba(15, 23, 42, 0.05);
+}
+
+
+.event-comfort__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 15px;
+}
+
+
+.event-comfort__eyebrow {
+  margin: 0 0 4px;
+
+  color: #0c4a6e;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+}
+
+
+.event-comfort__header h3 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 18px;
+}
+
+
+.event-comfort__header p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+
+  font-size: 11px;
+}
+
+
+.event-comfort__header-icon {
+  font-size: 31px;
+}
+
+
+.event-comfort__score {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 16px;
+  padding: 15px;
+
+  background: #f8fafc;
+
+  border-radius: 13px;
+}
+
+
+.event-comfort__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 62px;
+  height: 62px;
+
+  flex-shrink: 0;
+
+  background: white;
+
+  border-radius: 50%;
+
+  color: #0c4a6e;
+
+  font-size: 24px;
+  font-weight: 800;
+}
+
+
+.event-comfort__score small {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.06em;
+}
+
+
+.event-comfort__score strong {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #0f172a;
+
+  font-size: 14px;
+}
+
+
+.event-comfort__score p {
+  margin: 4px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+}
+
+
+.event-comfort__factors {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-top: 14px;
+}
+
+
+.event-comfort__factors > small {
+  color: #94a3b8;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.05em;
+}
+
+
+.event-comfort__factor {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 9px 10px;
+
+  background: #f8fafc;
+
+  border-radius: 9px;
+}
+
+
+.event-comfort__factor span {
+  font-size: 16px;
+}
+
+
+.event-comfort__factor p {
+  margin: 0;
+
+  color: #475569;
+
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+
+.event-comfort__tip {
+  margin-top: 13px;
+  padding-top: 11px;
+
+  border-top: 1px solid #e2e8f0;
+
+  color: #64748b;
+
+  font-size: 10px;
+  line-height: 1.5;
+}

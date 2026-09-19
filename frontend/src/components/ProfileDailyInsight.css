@@ -1,0 +1,120 @@
+.profile-daily {
+  margin-top: 18px;
+  padding: 20px;
+
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow:
+    0 6px 20px
+    rgba(15, 23, 42, 0.05);
+}
+
+
+.profile-daily__top {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.profile-daily__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  background: #f0f9ff;
+
+  border-radius: 12px;
+
+  font-size: 23px;
+}
+
+
+.profile-daily__eyebrow {
+  margin: 0 0 3px;
+
+  color: #0369a1;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+}
+
+
+.profile-daily h3 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 18px;
+}
+
+
+.profile-daily__message {
+  margin: 14px 0 0;
+
+  color: #475569;
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+
+.profile-daily__focus {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 13px;
+  padding: 11px;
+
+  background: #f8fafc;
+
+  border-radius: 10px;
+}
+
+
+.profile-daily__focus span {
+  font-size: 17px;
+}
+
+
+.profile-daily__focus small {
+  display: block;
+
+  color: #64748b;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 0.06em;
+}
+
+
+.profile-daily__focus strong {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #0f172a;
+
+  font-size: 11px;
+}
+
+
+.profile-daily__profile {
+  margin: 12px 0 0;
+
+  color: #94a3b8;
+
+  font-size: 9px;
+}

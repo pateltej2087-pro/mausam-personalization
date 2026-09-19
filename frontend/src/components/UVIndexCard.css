@@ -1,0 +1,174 @@
+.uv-card {
+  margin-top: 18px;
+  padding: 20px;
+
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow: 0 6px 20px
+    rgba(15, 23, 42, 0.05);
+}
+
+
+.uv-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.uv-card__eyebrow {
+  margin: 0 0 4px;
+
+  color: #64748b;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+}
+
+
+.uv-card__header h3 {
+  margin: 0;
+
+  color: #0f172a;
+
+  font-size: 18px;
+}
+
+
+.uv-card__icon {
+  font-size: 30px;
+}
+
+
+.uv-card__main {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+
+  margin-top: 16px;
+  padding: 16px;
+
+  background: #fffbeb;
+
+  border-radius: 14px;
+}
+
+
+.uv-card__value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 62px;
+  height: 62px;
+
+  flex-shrink: 0;
+
+  background: white;
+
+  border-radius: 50%;
+
+  font-size: 27px;
+  font-weight: 800;
+
+  color: #b45309;
+}
+
+
+.uv-card__main small {
+  display: block;
+
+  color: #92400e;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.06em;
+}
+
+
+.uv-card__main strong {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #78350f;
+
+  font-size: 16px;
+}
+
+
+.uv-card__main p {
+  margin: 4px 0 0;
+
+  color: #78716c;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.uv-card__personal {
+  margin-top: 12px;
+  padding: 12px;
+
+  background: #f8fafc;
+
+  border-left: 3px solid #0c4a6e;
+  border-radius: 9px;
+}
+
+
+.uv-card__personal small {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #0c4a6e;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.05em;
+}
+
+
+.uv-card__personal strong {
+  color: #0f172a;
+
+  font-size: 12px;
+}
+
+
+.uv-card__personal p {
+  margin: 5px 0 0;
+
+  color: #64748b;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.uv-card__demo {
+  margin: 10px 0 0;
+
+  color: #94a3b8;
+
+  font-size: 9px;
+}
+
+
+@media (max-width: 520px) {
+
+  .uv-card__main {
+    align-items: flex-start;
+  }
+
+}
