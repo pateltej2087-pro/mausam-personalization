@@ -11483,3 +11483,8 @@ html[data-theme="dark"] .day-result__decision .day-result__small-label {
 html[data-theme="dark"] .day-result__decision p {
   color: #cbd5e1 !important;
 }
+
+/* Dark mode - current temperature */
+html[data-theme="dark"] .hero__temp {
+  color: #f8fafc !important;
+}
