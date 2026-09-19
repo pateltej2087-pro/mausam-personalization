@@ -11488,3 +11488,65 @@ html[data-theme="dark"] .day-result__decision p {
 html[data-theme="dark"] .hero__temp {
   color: #f8fafc !important;
 }
+
+/* =========================================
+   DARK MODE - PLAN MY DAY
+========================================= */
+
+/* Quick Demo block */
+html[data-theme="dark"] .day-planner__demo {
+  background: #172033 !important;
+  border-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .day-planner__demo strong {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .day-planner__demo p {
+  color: #cbd5e1 !important;
+}
+
+
+/* Planned activity cards */
+html[data-theme="dark"] .day-planner__activity {
+  background: #172033 !important;
+  border-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .day-planner__activity-main strong {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .day-planner__activity-main span {
+  color: #cbd5e1 !important;
+}
+
+/* Activity and time inputs */
+html[data-theme="dark"] .day-planner__form select,
+html[data-theme="dark"] .day-planner__form input {
+  background: #172033 !important;
+  border-color: #475569 !important;
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .day-planner__form option {
+  background: #172033;
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .day-planner__form label > span {
+  color: #cbd5e1 !important;
+}
+
+/* Dark mode - Plan My Day activity form container */
+html[data-theme="dark"] .day-planner__form {
+  background: #172033 !important;
+  border-color: #334155 !important;
+}
+
+html[data-theme="dark"] .day-planner__form label > span {
+  color: #94a3b8 !important;
+}
